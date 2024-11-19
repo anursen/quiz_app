@@ -1,0 +1,148 @@
+{
+    "section1": [
+        {
+            "question": "Python bir yorumlanan (interpreted) programlama dilidir.",
+            "answer": true,
+            "points": 5
+        },
+        {
+            "question": "Python'da değişken tanımlarken veri tipini belirtmek zorunludur.",
+            "answer": false,
+            "points": 5
+        },
+        {
+            "question": "Python'da indeksler 1'den başlar.",
+            "answer": false,
+            "points": 5
+        },
+        {
+            "question": "Python'da liste ve sözlük veri yapıları değiştirilebilir (mutable) yapılardır.",
+            "answer": true,
+            "points": 5
+        },
+        {
+            "question": "Python'da 'pass' ifadesi hiçbir şey yapmayan bir placeholder olarak kullanılır.",
+            "answer": true,
+            "points": 5
+        },
+        {
+            "question": "Python'da bir fonksiyonu tanımlamak için 'function' anahtar kelimesi kullanılır.",
+            "answer": false,
+            "points": 5
+        }
+    ],
+    "section2": [
+        {
+            "question": "Python'da bir liste oluşturmak için hangi parantez kullanılır?",
+            "options": ["[]", "()", "{}", "<>"],
+            "correct_answer": "[]",
+            "points": 5
+        },
+        {
+            "question": "Aşağıdakilerden hangisi Python'da bir string metodudur?",
+            "options": ["split()", "divide()", "separate()", "cut()"],
+            "correct_answer": "split()",
+            "points": 5
+        },
+        {
+            "question": "Python'da bir sözlük (dictionary) oluşturmak için hangi parantez kullanılır?",
+            "options": ["[]", "()", "{}", "<<>>"],
+            "correct_answer": "{}",
+            "points": 5
+        },
+        {
+            "question": "Python'da 'len()' fonksiyonu ne işe yarar?",
+            "options": ["Bir nesnenin uzunluğunu verir", "Bir sayının logaritmasını alır", "Bir stringi büyük harfe çevirir", "Bir listenin son elemanını verir"],
+            "correct_answer": "Bir nesnenin uzunluğunu verir",
+            "points": 5
+        },
+        {
+            "question": "Aşağıdakilerden hangisi Python'da geçerli bir değişken adıdır?",
+            "options": ["_name", "2name", "my-name", "@name"],
+            "correct_answer": "_name",
+            "points": 5
+        },
+        {
+            "question": "Python'da bir stringin tüm karakterlerini büyük harfe çevirmek için hangi metod kullanılır?",
+            "options": ["upper()", "capitalize()", "title()", "big()"],
+            "correct_answer": "upper()",
+            "points": 5
+        }
+    ],
+    "section3": [
+        {
+            "question": "Python'da hangi veri tipleri değiştirilemez (immutable) yapılardır?",
+            "options": ["string", "list", "tuple", "set"],
+            "correct_answers": ["string", "tuple"],
+            "points": 10
+        },
+        {
+            "question": "Aşağıdakilerden hangileri Python'da döngü türleridir?",
+            "options": ["for", "while", "loop", "repeat"],
+            "correct_answers": ["for", "while"],
+            "points": 10
+        },
+        {
+            "question": "Python'da hangi operatörler mantıksal operatörlerdir?",
+            "options": ["and", "or", "plus", "minus"],
+            "correct_answers": ["and", "or"],
+            "points": 10
+        },
+        {
+            "question": "Aşağıdakilerden hangileri Python'da sayısal veri tipleridir?",
+            "options": ["int", "float", "char", "word"],
+            "correct_answers": ["int", "float"],
+            "points": 10
+        },
+        {
+            "question": "Python'da hata yakalama için kullanılan bloklar hangileridir?",
+            "options": ["try", "catch", "except", "finally"],
+            "correct_answers": ["try", "except"],
+            "points": 10
+        },
+        {
+            "question": "Aşağıdakilerden hangileri Python'da dosya açma modlarıdır?",
+            "options": ["r", "w", "x", "y"],
+            "correct_answers": ["r", "w"],
+            "points": 10
+        }
+    ],
+    "section4": [
+        {
+            "question": "Python'da bir dosya okuma işleminin adımlarını sıralayın",
+            "options": ["Dosya yolunu belirle", "open() fonksiyonu ile dosyayı aç", "read() metodu ile oku", "close() ile dosyayı kapat"],
+            "correct_order": ["Dosya yolunu belirle", "open() fonksiyonu ile dosyayı aç", "read() metodu ile oku", "close() ile dosyayı kapat"],
+            "points": 5
+        },
+        {
+            "question": "Python'da bir fonksiyon tanımlama adımlarını sıralayın",
+            "options": ["def anahtar kelimesi yaz", "fonksiyon adını belirle", "parametreleri parantez içinde belirt", "fonksiyon gövdesini yaz"],
+            "correct_order": ["def anahtar kelimesi yaz", "fonksiyon adını belirle", "parametreleri parantez içinde belirt", "fonksiyon gövdesini yaz"],
+            "points": 5
+        },
+        {
+            "question": "Python'da bir liste sıralama işleminin adımlarını sıralayın",
+            "options": ["Listeyi oluştur", "sort() metodunu çağır", "Sıralama tipini belirle", "Sıralanmış listeyi kullan"],
+            "correct_order": ["Listeyi oluştur", "Sıralama tipini belirle", "sort() metodunu çağır", "Sıralanmış listeyi kullan"],
+            "points": 5
+        },
+        {
+            "question": "Python'da bir sınıf (class) oluşturma adımlarını sıralayın",
+            "options": ["class anahtar kelimesini yaz", "sınıf adını belirle", "__init__ metodunu tanımla", "sınıf metodlarını ekle"],
+            "correct_order": ["class anahtar kelimesini yaz", "sınıf adını belirle", "__init__ metodunu tanımla", "sınıf metodlarını ekle"],
+            "points": 5
+        },
+        {
+            "question": "Python'da bir hata yakalama bloğu oluşturma adımlarını sıralayın",
+            "options": ["try bloğunu başlat", "şüpheli kodu yaz", "except bloğunu ekle", "hata mesajını yazdır"],
+            "correct_order": ["try bloğunu başlat", "şüpheli kodu yaz", "except bloğunu ekle", "hata mesajını yazdır"],
+            "points": 5
+        },
+        {
+            "question": "Python'da bir döngü oluşturma adımlarını sıralayın",
+            "options": ["Döngü tipini seç", "Döngü koşulunu belirle", "Döngü gövdesini yaz", "break koşulunu ekle"],
+            "correct_order": ["Döngü tipini seç", "Döngü koşulunu belirle", "Döngü gövdesini yaz", "break koşulunu ekle"],
+            "points": 5
+        }
+    ]
+}
